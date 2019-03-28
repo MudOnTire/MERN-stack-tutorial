@@ -1,0 +1,17 @@
+{
+  "name": "MERN-stack-tutorial",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "git@github.com:MudOnTire/MERN-stack-tutorial.git",
+  "author": "MudOnTire <895157882@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev":"nodemon server.js"
+  },
+  "dependencies": {
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20"
+  }
+}
